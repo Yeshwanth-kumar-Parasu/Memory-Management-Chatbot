@@ -4,7 +4,7 @@
 #include <vector>
 #include <string>
 
-class GraphNode; // forward declaration
+class GraphNode; 
 
 class GraphEdge
 {
@@ -15,7 +15,7 @@ private:
 
     // proprietary members
     int _id;
-    std::vector<std::string> _keywords; // list of topics associated with this edge
+    std::vector<std::string> _keywords; 
     
 
 public:
