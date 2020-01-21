@@ -36,8 +36,6 @@ ChatBot::~ChatBot()
 
 }
 
-//// STUDENT CODE
-////
 
 ChatBot::ChatBot(const ChatBot& source)
 {
@@ -111,8 +109,6 @@ ChatBot& ChatBot::operator=(ChatBot&& move) noexcept
     return *this;
 }
 
-////
-//// EOF STUDENT CODE
 
 void ChatBot::ReceiveMessageFromUser(std::string message)
 {
