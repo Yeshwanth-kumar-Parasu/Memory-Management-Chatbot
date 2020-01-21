@@ -47,7 +47,7 @@ ChatBot::ChatBot(const ChatBot& source)
     *_image = *source._image;
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
-    _currentNode = sourcer._currentNode;
+    _currentNode = source._currentNode;
     _chatLogic->SetChatbotHandle(this);
 }
 
